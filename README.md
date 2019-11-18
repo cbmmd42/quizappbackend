@@ -6,7 +6,8 @@ The server which hosts my application runs nginx to forward incoming requests to
 It also runs pm2 to run my express servers and host my react application locally<br />
 nginx is acting as a reverse proxy<br />
 
-My three additions to the configuration file for nginx was these three blocks of code.
+My three additions to the configuration file for nginx was these three blocks of code. This 
+file is found at /etc/nginx/sites-available/default
 
 location / {<br />
         proxy_pass http://localhost: ****;<br />
