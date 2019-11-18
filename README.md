@@ -1,4 +1,4 @@
-### quizappbackend
+# quizappbackend
 Operating system: Ubuntu 18.04.3 LTS
 Basic LAMP setup<br/>
 ## Server Configuration info
