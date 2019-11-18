@@ -3,8 +3,12 @@ Operating system: Ubuntu 18.04.3 LTS
 Basic LAMP setup<br/>
 
 ## Server.js
+This server handles requests for questions. I wrote each server file in sections which is why they are separated. 
+This file's name needs to bechanged to serverquestions.js. It is written in javascript and uses express. 
 ## Serverui.js
+This server handles requests for my react application which is the ui for the quiz application. It hosts the build folder of my react application bootstrapped with creat-react-app
 ## Serveranswers.js
+This server returns the answers to the questions stored in my database. This file should be consolidated with server.js. 
 
 ## Server Configuration info
 The server which hosts my application runs nginx to forward incoming requests to my express servers<br />
