@@ -1,5 +1,5 @@
 ### quizappbackend
-Operating system: Ubuntu
+Operating system: Ubuntu 18.04.3 LTS
 Basic LAMP setup<br/>
 ## Server Configuration info
 The server which hosts my application runs nginx to forward incoming requests to my express servers<br />
