@@ -19,7 +19,7 @@ location / {<br />
         proxy_cache_bypass $http_upgrade;<br />
     }<br /><br />
     location /quizapp {<br />
-        proxy_pass http://localhost: ****;<br />
+        proxy_pass http://localhost:****; <br />
         proxy_http_version 1.1;<br />
         proxy_set_header Upgrade $http_upgrade;<br />
         proxy_set_header Connection 'upgrade';<br />
@@ -27,7 +27,7 @@ location / {<br />
         proxy_cache_bypass $http_upgrade;<br />
     }<br /><br />
     location /answers {<br />
-        proxy_pass http://localhost:****;<br />
+        proxy_pass http://localhost:****; <br />
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;<br />
         proxy_set_header Connection 'upgrade';<br />
