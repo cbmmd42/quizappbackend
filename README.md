@@ -2,7 +2,7 @@
 Operating system: Ubuntu 18.04.3 LTS
 Basic LAMP setup<br/>
 ## quizappui 
-If i were to resetup my server, I would clone this quizappui into quickappbackend in on my server.
+If i were to resetup my server, I would clone quizappui into quickappbackend in on my server.
 
 ## Server.js
 This server handles requests for questions. I wrote each server file in sections which is why they are separated. 
