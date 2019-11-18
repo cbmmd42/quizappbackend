@@ -5,31 +5,31 @@ The server which hosts my application runs nginx to forward incoming requests to
 It also runs pm2 to run my express servers and host my react application locally<br />
 nginx is acting as a reverse proxy<br />
 
+My three additions to the configuration file for nginx was these three blocks of code.
 
-
-location / {
-        proxy_pass http://localhost:****;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
+location / {<br />
+        proxy_pass http://localhost:****;<br />
+        proxy_http_version 1.1;<br />
+        proxy_set_header Upgrade $http_upgrade;<br />
+        proxy_set_header Connection 'upgrade';<br />
+        proxy_set_header Host $host;<br />
+        proxy_cache_bypass $http_upgrade;<br />
     }<br /><br />
-    location /quizapp {
-        proxy_pass http://localhost:****;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
+    location /quizapp {<br />
+        proxy_pass http://localhost:****;<br />
+        proxy_http_version 1.1;<br />
+        proxy_set_header Upgrade $http_upgrade;<br />
+        proxy_set_header Connection 'upgrade';<br />
+        proxy_set_header Host $host;<br />
+        proxy_cache_bypass $http_upgrade;<br />
     }<br /><br />
-    location /answers {
-        proxy_pass http://localhost:****;
+    location /answers {<br />
+        proxy_pass http://localhost:****;<br />
         proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
+        proxy_set_header Upgrade $http_upgrade;<br />
+        proxy_set_header Connection 'upgrade';<br />
+        proxy_set_header Host $host;<br />
+        proxy_cache_bypass $http_upgrade;<br />
     }<br />
 
 ## Database Info
