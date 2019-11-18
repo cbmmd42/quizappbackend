@@ -35,12 +35,12 @@ location / {<br />
 ## Database Info
 
 Database type: mysql<br/>
-Database setup: <br/>
+Database setup: 
 For the setup of my database I created a new database and database user, 
-and decided on splitting the tables for questions and answers. <br/>
-The questions table has an id a priamry key and a question. <br/>
+and decided on splitting the tables for questions and answers. 
+The questions table has an id a priamry key and a question. 
 The answers table has an id, a QID which is used to match the answer to a particualr questions,
-an answer and an int/bool which represents whether the answer is correct or incorrect. <br/>
+an answer and an int/bool which represents whether the answer is correct or incorrect. 
 I set it up this way so that the questions would be separated from their answers and so that it would be easy to add an 
 answer to a question if desired. 
 
