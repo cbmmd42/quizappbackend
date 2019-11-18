@@ -1,5 +1,6 @@
 ### quizappbackend
-
+Operating system: Ubuntu
+Basic LAMP setup<br/>
 ## Server Configuration info
 The server which hosts my application runs nginx to forward incoming requests to my express servers<br />
 It also runs pm2 to run my express servers and host my react application locally<br />
