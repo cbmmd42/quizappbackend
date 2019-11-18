@@ -1,6 +1,8 @@
 # quizappbackend
 Operating system: Ubuntu 18.04.3 LTS
 Basic LAMP setup<br/>
+##quizappui 
+I have the repository quizappui cloned into this folder
 
 ## Server.js
 This server handles requests for questions. I wrote each server file in sections which is why they are separated. 
