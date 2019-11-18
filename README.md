@@ -1,9 +1,11 @@
-# quizappbackend
+### quizappbackend
 
-## Server Configureation info
+## Server Configuration info
 The server which hosts my application runs nginx to forward incoming requests to my express servers<br />
 It also runs pm2 to run my express servers and host my react application locally<br />
 nginx is acting as a reverse proxy<br />
+
+
 
 location / {
         proxy_pass http://localhost:****;
@@ -12,7 +14,7 @@ location / {
         proxy_set_header Connection 'upgrade';
         proxy_set_header Host $host;
         proxy_cache_bypass $http_upgrade;
-    }<br />
+    }<br /><br />
     location /quizapp {
         proxy_pass http://localhost:****;
         proxy_http_version 1.1;
@@ -20,7 +22,7 @@ location / {
         proxy_set_header Connection 'upgrade';
         proxy_set_header Host $host;
         proxy_cache_bypass $http_upgrade;
-    }<br />
+    }<br /><br />
     location /answers {
         proxy_pass http://localhost:****;
         proxy_http_version 1.1;
@@ -28,7 +30,7 @@ location / {
         proxy_set_header Connection 'upgrade';
         proxy_set_header Host $host;
         proxy_cache_bypass $http_upgrade;
-    }
+    }<br />
 
 ## Database Info
 database username: ********* 
