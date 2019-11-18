@@ -11,7 +11,7 @@ file is found at /etc/nginx/sites-available/default <br/>
 They forward incoming requests to each of my express servers running through pm2
 
 location / {<br />
-        proxy_pass http://localhost: ****;<br />
+        proxy_pass http://localhost: (express server port number here);<br />
         proxy_http_version 1.1;<br />
         proxy_set_header Upgrade $http_upgrade;<br />
         proxy_set_header Connection 'upgrade';<br />
