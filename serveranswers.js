@@ -21,7 +21,7 @@ connection.connect(function(error) {
 
 app.use(cors());
 
-app.get('/answers',function(req,res,next) {
+app.get('/api/answers',function(req,res,next) {
     connection.query("SELECT answers.QID, answers.answer, answers.correct FROM answers ", 
     function(error,results,fields) {
         if(!!error){
