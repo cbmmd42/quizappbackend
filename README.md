@@ -1,6 +1,5 @@
 # quizappbackend
 Operating system: Ubuntu 18.04.3 LTS
-Basic LAMP setup<br/>
 ## quizappui 
 If i were to resetup my server, I would clone quizappui into quickappbackend in on my server.
 
