@@ -3,7 +3,7 @@ Operating system: Ubuntu 18.04.3 LTS
 ## quizappui 
 If i were to resetup my server, I would clone quizappui into quickappbackend in on my server.
 
-## Server.js
+## Serverquestions.js
 This server handles requests for questions. I wrote each server file in sections which is why they are separated. 
 This file's name needs to bechanged to serverquestions.js. It is written in javascript and uses express. 
 ## Serverui.js
