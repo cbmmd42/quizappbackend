@@ -5,10 +5,10 @@ var mysql = require('mysql');
 var app = express();
 
 var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'quizclient',
-    password: 'quizauth',
-    database: 'quizquestionsdb'
+    host: '*****',
+    user: '*****',
+    password: '****',
+    database: '****'
 });
 
 connection.connect(function(error) {
